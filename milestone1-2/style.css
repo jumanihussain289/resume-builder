@@ -1,0 +1,103 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 150px;
+}
+
+.resume-container {
+    display: flex;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Section Styling */
+.left-section {
+    background-color: #2C3E50;
+    color: #ECF0F1;
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid #E74C3C;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 5px solid #E74C3C;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h3 {
+    background-color: #3498DB;
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color:#FFFFFF;
+    border-radius: 10px;
+    border: #2980B9;
+    box-shadow: rgba(78, 77, 77, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(43, 42, 42, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+ul {
+    list-style-type: fill round;
+    padding: 10;
+    margin: 10px 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Right Section Styling */
+.right-section {
+    background-color: #ECF0F1;
+    color: #2C3E50;
+    Border: #95A5A6;
+    padding: 20px;
+    width: 65%;
+}
+
+button {
+    background-color: #E74C3C; /* Red background */
+    color: #FFFFFF; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Slightly rounded corners */
+    padding: 10px 20px; /* Padding for size */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: all 0.3s ease; /* Smooth transition effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    margin-top: 10px;
+    
+    
+}
+
+button:hover {
+    background-color: #C0392B; /* Slightly darker red */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* More prominent shadow on hover */
+  }
+  
+  button:active {
+    background-color: #A93226; /* Even darker red for click */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reduced shadow on click */
+    transform: translateY(2px); /* Slight push-down effect */
+  }
